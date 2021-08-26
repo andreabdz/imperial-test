@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.portada {
+    position: relative;
+    background-image: url('../img/pexels-philipp-birmes-830891\ \(1\).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portada::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.5);
+    content: '';
+}
+
+.portada .titulo,
+.portada .subtitulo,
+.portada .descripcion,
+.portada .boton-portada {
+    margin-bottom: 50px;
+    color: white;
+    z-index: 2;
+}
+
+.subtitulo,
+.descripcion,
+.descripcion,
+.btn {
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo {
+    font-family: 'Cookie', cursive;
+    font-size: 150px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.subtitulo {
+    font-size: 45px;
+    font-weight:bolder
+}
+
+.descripcion {
+    font-size: 40px;
+}
+
+.btn {
+    z-index: 2;
+}
+.btn button {
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 2px;
+    z-index: 2;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav2 a {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 15px;
+}
+.logo a {
+    font-size: 80px;
+    font-family: 'Cookie', cursive;
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, p {
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    font-size: 45px;
+    justify-content: center;
+}
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.titulo-about {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+
+}
+.linea {
+    height: 4px;
+    width: 60px;
+    background-color: rgb(57, 211, 238);
+    margin-top: 30px;
+}
+
+.about-texto {
+    margin-top: 30px;
+}
+
+.contenido-about {
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 90px;
+}
+
+.informacion-about {
+    margin-left: 40px;
+}
+.text {
+    margin-top: 30px;
+    line-height: 35px;
+}
+
+.titulo-servicios {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.text-servicios {
+    margin-top: 50px;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+.services-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 90px;
+    gap: 30px;
+}
+
+.icono-servicio {
+    position: relative;
+    display: inline-flex;
+    background-color: #03C4EB;
+    width: 64px;
+    height: 64px;
+    float: left;
+    border-radius: 50%;
+}
+
+.service-content {
+    margin-left: 100px;
+}
+
+.service-description {
+margin-bottom: 20px;
+}
+
+.subs {
+    position: relative;
+    background-image:url('../img/pexels-pixabay-417344.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    margin-top: 80px;
+}
+.text-sub {
+    margin-top: 30px;
+}
+.subs  .bnt-sub {
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 2px;
+    margin-right: 200px;
+    margin-left: 60px;
+}
+
+.portafolio {
+    display: flex;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+.text-portafolio {
+    margin-top: 50px;
+}
+
+.indice-portafolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indice-portafolio a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    margin-right: 30px;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.fotos {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 90px;
+}
+.fotos img {
+    width: 100%;
+    height: auto;
+}
+
+.testimonials {
+background-color: rgb(241, 243, 245);
+margin-top: 100px;
+}
+.testimonial {
+display:flex;
+flex-direction: column;
+align-items: center;
+margin-top: 80px;
+}
+
+.text-testimonial{
+    margin-top: 50px;
+}
+
+.box-testimonial {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin: 0 90px;
+    margin-bottom: 100px;
+}
+
+.box-testimonial:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.box-testimonial .testimonial-client {
+    margin-left: 50px;
+}
+
+.box-testimonial:nth-child(odd) .testimonial-client  {
+    margin-right: 50px;
+
+}
+
+.testimonial-client {
+    background-color: white;
+    padding: 90px;
+}
+
+.client img {
+    border-radius: 50%;
+    width: 350px;
+    border: 10px solid white;
+}
+
+.client {
+    text-align: center;
+    justify-content: center;
+}
+.text-team {
+    margin-top: 50px;
+}
+
+.our-teams {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+
+
+}
+.team {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.teammate {
+    text-align: center;
+}
+
+.teammate img {
+    width: 100%;
+    height: auto;
+}
+
