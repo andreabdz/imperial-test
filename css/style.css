@@ -51,12 +51,12 @@
 }
 
 .subtitulo {
-    font-size: 45px;
+    font-size: 30px;
     font-weight:bolder
 }
 
 .descripcion {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .btn {
@@ -66,7 +66,7 @@
     color: white;
     padding: 16px 32px;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     margin: 4px 2px;
     cursor: pointer;
     text-decoration: none;
@@ -83,16 +83,17 @@ nav {
     justify-content: center;
     justify-content: space-around;
     align-items: center;
+    padding: 5px 0;
 }
 .nav2 a {
     color:white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Raleway', sans-serif;
     margin-right: 15px;
 }
 .logo a {
-    font-size: 80px;
+    font-size: 50px;
     font-family: 'Cookie', cursive;
     text-decoration: none;
     color: white;
@@ -107,22 +108,22 @@ h1, h2, p {
     font-family: 'Raleway', sans-serif;
 }
 h1 {
-    font-size: 45px;
+    font-size: 35px;
     justify-content: center;
 }
 h2 {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .titulo-about {
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 50px;
 
 }
 .linea {
@@ -138,14 +139,19 @@ p {
 
 .contenido-about {
     display: flex;
+    margin-top: 90px;
     margin-left: 90px;
     margin-right: 90px;
-    margin-top: 90px;
+}
+
+.img-personas img {
+    width: 600px;
 }
 
 .informacion-about {
-    margin-left: 40px;
+    margin-left: 30px;
 }
+
 .text {
     margin-top: 30px;
     line-height: 35px;
@@ -204,13 +210,13 @@ margin-bottom: 20px;
     margin-top: 80px;
 }
 .text-sub {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .subs  .bnt-sub {
     color: white;
     padding: 16px 32px;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     margin: 4px 2px;
     cursor: pointer;
     text-decoration: none;
@@ -247,7 +253,7 @@ margin-bottom: 20px;
     font-family: 'Raleway', sans-serif;
     font-weight:bold;
     margin-right: 30px;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 80px;
 }
 
@@ -265,14 +271,16 @@ margin-bottom: 20px;
 }
 
 .testimonials {
-background-color: rgb(241, 243, 245);
-margin-top: 100px;
+    background-color: rgb(241, 243, 245);
+    margin-top: 100px;
 }
+
 .testimonial {
-display:flex;
-flex-direction: column;
-align-items: center;
-margin-top: 80px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .text-testimonial{
