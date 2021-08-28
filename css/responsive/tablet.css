@@ -1,0 +1,11 @@
+.services-grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav2 {
+    left: unset;
+}
+
+.nav2 a {
+    padding: 15px 60px;
+}

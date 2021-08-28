@@ -1,0 +1,131 @@
+.titulo {
+    font-size: 150px;
+}
+
+.subtitulo {
+    font-size: 30px;
+}
+
+.descripcion {
+    font-size: 30px;
+}
+
+nav {
+    justify-content: space-around;
+}
+
+.btn-menu-responsive {
+    display: none;
+}
+
+.nav2 {
+    position: relative;
+    flex-direction: row;
+    height: unset;
+    right: unset;
+    top: unset;
+    justify-content: unset;
+}
+
+.nav2 a {
+    margin-right: 15px;
+    padding: 10px;
+    width: unset;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.contenido-about {
+    display: flex;
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 90px;
+    flex-direction: row;
+}
+
+.contenido-about p {
+    font-size: 18px;
+}
+
+.img-personas img {
+    width: 600px;
+}
+
+.informacion-about {
+    margin-left: 30px;
+}
+
+.text {
+    margin-top: 30px;
+    line-height: 35px;
+}
+
+.text-servicios {
+    margin-top: 50px;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+.services-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 90px;
+}
+
+.service-description {
+    margin-bottom: 20px;
+}
+
+.subs {
+    flex-direction: row;
+}
+
+.text-sub {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.subs .bnt-sub {
+    margin-right: 200px;
+    margin-left: 60px;
+    font-size: 15px;
+}
+
+.sub-updates {
+    text-align: left;
+}
+
+.fotos {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 90px;
+}
+
+.box-testimonial {
+    flex-direction: row;
+}
+
+.box-testimonial:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.box-testimonial .testimonial-client {
+    margin-left: 50px;
+}
+
+.box-testimonial:nth-child(odd) .testimonial-client  {
+    margin-right: 50px;
+
+}
+
+.team {
+    flex-direction: row;
+}
